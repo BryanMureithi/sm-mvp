@@ -1,0 +1,9 @@
+.gradientt {
+  background: radial-gradient(
+    91.73% 55.65% at 26.19% 54.07%,
+    #363687 4.27%,
+    #1e1e1e 79.25%
+  );
+  max-width: 100%;
+  height: 100%;
+}

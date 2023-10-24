@@ -7,3 +7,23 @@
   max-width: 100%;
   height: 100%;
 }
+
+.services-gradient {
+  background: radial-gradient(
+    60.98% 32.23% at 20.79% 25.66%,
+    #282853 4.27%,
+    #1e1e1e 79.25%
+  );
+  max-width: 100%;
+  height: 100%;
+}
+
+.choose-us-gradient {
+  max-width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    149deg,
+    #5454d4 8.87%,
+    rgba(29, 29, 50, 0) 73.47%
+  );
+}

@@ -1,4 +1,5 @@
 import Navbar from "./components/NavBar";
+import Footer from "./components/Footer";
 import "./assets/css/hero.css";
 
 function App() {
@@ -258,7 +259,171 @@ function App() {
             exceptional results.
           </p>
         </div>
+        {/* Projects Examples */}
+        <div className="grid grid-cols-3 gap-12 mt-24">
+          <div className="col-span-1">
+            <img
+              src="src/assets/images/work-2.png"
+              alt=""
+              className="rounded-md"
+            />
+            <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
+              Front-end
+            </span>
+            <h2 className="font-bold text-xl font-poppins text-gray-200">
+              Flex Dealer
+            </h2>
+          </div>
+          <div className="col-span-1">
+            <img
+              src="src/assets/images/work-1.png"
+              alt=""
+              className="rounded-md"
+            />
+            <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
+              UI/UX Design
+            </span>
+            <h2 className="font-bold text-xl font-poppins text-gray-200">
+              Sortseam
+            </h2>
+          </div>
+          <div className="col-span-1">
+            <img
+              src="src/assets/images/work-2.png"
+              alt=""
+              className="rounded-md"
+            />
+            <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
+              Full-stack
+            </span>
+            <h2 className="font-bold text-xl font-poppins text-gray-200">
+              Fourth Profile
+            </h2>
+          </div>
+          <div className="col-span-1">
+            <img
+              src="src/assets/images/work-2.png"
+              alt=""
+              className="rounded-md"
+            />
+            <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
+              Front-end
+            </span>
+            <h2 className="font-bold text-xl font-poppins text-gray-200">
+              Flex Dealer
+            </h2>
+          </div>
+          <div className="col-span-1">
+            <img
+              src="src/assets/images/work-1.png"
+              alt=""
+              className="rounded-md"
+            />
+            <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
+              UI/UX Design
+            </span>
+            <h2 className="font-bold text-xl font-poppins text-gray-200">
+              Sortseam
+            </h2>
+          </div>
+          <div className="col-span-1">
+            <img
+              src="src/assets/images/work-2.png"
+              alt=""
+              className="rounded-md"
+            />
+            <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
+              Full-stack
+            </span>
+            <h2 className="font-bold text-xl font-poppins text-gray-200">
+              Fourth Profile
+            </h2>
+          </div>
+        </div>
       </section>
+
+      {/* Our Values Section */}
+
+      <section className="px-24 py-12 bg-[#4A4AFF]">
+        <div className="flex justify-center items-center">
+          <h2 className="text-white w-5/12 text-center font-poppins text-3xl font-semibold">
+            Our values define our teams and determine our partners.
+          </h2>
+        </div>
+        <div className="grid grid-cols-5 gap-2 mt-24">
+          <div className="col-span-1">
+            <h3 className="text-white text-xl w-5/12 font-poppins font-semibold">
+              People First
+            </h3>
+            <p className="text-white font-poppins w-9/12 text-sm font-normal mt-2">
+              We care about People before products and profits
+            </p>
+          </div>
+          <div className="col-span-1">
+            <h3 className="text-white text-xl w-5/12 font-poppins font-semibold">
+              Always Learning
+            </h3>
+            <p className="text-white font-poppins w-9/12 text-sm font-normal mt-2">
+              We care about People before products and profits
+            </p>
+          </div>
+          <div className="col-span-1">
+            <h3 className="text-white text-xl w-5/12 font-poppins font-semibold">
+              Trust is Everything
+            </h3>
+            <p className="text-white font-poppins w-9/12 text-sm font-normal mt-2">
+              We care about People before products and profits
+            </p>
+          </div>
+          <div className="col-span-1">
+            <h3 className="text-white text-xl w-7/12 font-poppins font-semibold">
+              Dream and Deliver Big
+            </h3>
+            <p className="text-white font-poppins w-9/12 text-sm font-normal mt-2">
+              We care about People before products and profits
+            </p>
+          </div>
+          <div className="col-span-1">
+            <h3 className="text-white text-xl w-8/12 font-poppins font-semibold">
+              Client Success is our Success
+            </h3>
+            <p className="text-white font-poppins w-9/12 text-sm font-normal mt-2">
+              We care about People before products and profits
+            </p>
+          </div>
+        </div>
+        <div className="mt-32 flex justify-center">
+          <a href="#" className="px-6 py-2 bg-[#1E1E1E] text-white">
+            Start a Conversation
+          </a>
+        </div>
+      </section>
+
+      {/* Tools and Experience Section */}
+
+      <section className="px-24 py-12 tools-gradient grid grid-cols-2">
+        <div className="col-span-1 space-y-8 py-24">
+          <h2 className="text-white font-inter text-4xl font-bold">
+            Tools and Experience
+          </h2>
+          <p className="text-[#D4D4D4] font-poppins text-sm font-normal w-8/12">
+            Our experience covers a wide range of solutions, industries and
+            frameworks. We aim to be technology agnostic, choosing the right
+            tool for the job, and some of our favorite tools are ReactJS, React
+            Native, Ruby on Rails and Node.js.
+          </p>
+          <ul className="space-y-2 text-white font-poppins text-lg font-semibold">
+            <li>Web Applications</li>
+            <li>UI/UX Design</li>
+            <li>Video Editting</li>
+            <li>Social Media Management</li>
+          </ul>
+        </div>
+        <div className="col-span-1">
+          <img src="src/assets/images/tools.png" alt="" className="w-9/12" />
+        </div>
+      </section>
+      <Footer />
     </div>
   );
 }

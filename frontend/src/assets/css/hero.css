@@ -27,3 +27,14 @@
     rgba(29, 29, 50, 0) 73.47%
   );
 }
+
+.tools-gradient {
+  max-width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    55.96% 37.63% at 50.04% 45.83%,
+    #282853 4.27%,
+    #262648 10.05%,
+    #1e1e1e 79.25%
+  );
+}

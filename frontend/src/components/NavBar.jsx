@@ -1,8 +1,8 @@
 const NavBar = () => {
   return (
-    <nav className="px-24 py-3 flex justify-between items-center bg-[#1E1E1E] text-white font-inter text-sm">
+    <nav className="px-8 py-2 lg:px-24 lg:py-3 flex justify-between items-center bg-[#1E1E1E] text-white font-inter text-sm">
       <img src="src/assets/images/logo.png" alt="logo" />
-      <ul className="flex space-x-12">
+      <ul className="lg:flex space-x-12 hidden">
         <li className="text-[#868FFF]">
           <a href="#">Home</a>
         </li>
@@ -18,9 +18,12 @@ const NavBar = () => {
       </ul>
       <a
         href="#"
-        className="px-6 py-2 bg-[#5454D4] hover:bg-[#4A4AFF] rounded-full"
+        className="hidden lg:block px-6 py-2 bg-[#5454D4] hover:bg-[#4A4AFF] rounded-full"
       >
         Get In Touch
+      </a>
+      <a href="" className="lg:hidden">
+        <box-icon name="menu" color="#5454D4" size="lg"></box-icon>
       </a>
     </nav>
   );

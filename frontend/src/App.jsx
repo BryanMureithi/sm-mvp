@@ -11,7 +11,7 @@ function App() {
       {/* Hero Section */}
       <section className="gradientt">
         <div className="">
-          <div className="px-12 py-16 lg:py-36 lg:px-24">
+          <div className="px-12 py-16 lg:py-32 lg:px-24">
             <div className="">
               <h1 className="font-inter text-2xl text-center font-medium text-white w-11/12 md:text-4xl md:w-10/12 lg:text-6xl lg:text-start lg:w-8/12">
                 Your <span className="text-[#868FFF]">Trusted Partner</span> for
@@ -133,7 +133,7 @@ function App() {
                   Backend Development
                 </li>
                 <li className="text-[#A8A8A8] text-base font-normal lg:text-lg">
-                  Serach Engine Optimization
+                  Search Engine Optimization
                 </li>
                 <li className="text-[#A8A8A8] text-base font-normal lg:text-lg">
                   Website Maintenance

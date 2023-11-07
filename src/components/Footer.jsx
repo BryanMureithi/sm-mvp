@@ -11,23 +11,27 @@ const Footer = () => {
             <a href="">Projects</a>
           </li>
           <li>
-            <a href="">Privacy Policy</a>
-          </li>
-          <li>
-            <a href="">Licensing</a>
-          </li>
-          <li>
             <a href="">Contact</a>
           </li>
         </ul>
-        <a href="#" className="px-6 py-2 bg-[#5454D4] hover:bg-[#4A4AFF]">
+        <a
+          href="#"
+          className="px-6 py-2 text-white bg-[#5454D4] hover:bg-[#4A4AFF]"
+        >
           Get In Touch
         </a>
       </div>
       <hr className="w-full text-gray-500" />
       <div className="flex justify-between items-center py-6">
         <p className="text-white text-sm">
-          © 2023 Sorstseam. All Rights Reserved
+          © 2023 Sorstseam. All Rights Reserved |{" "}
+          <a href="" className="hover:text-[#5454D4]">
+            Terms & Conditions
+          </a>{" "}
+          |{" "}
+          <a href="" className="hover:text-[#5454D4]">
+            Privacy Policy
+          </a>
         </p>
       </div>
     </footer>

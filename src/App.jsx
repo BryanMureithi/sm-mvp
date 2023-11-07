@@ -11,9 +11,9 @@ function App() {
       {/* Hero Section */}
       <section className="gradientt">
         <div className="">
-          <div className="px-12 py-16 lg:py-32 lg:px-24">
+          <div className="px-12 py-16 lg:py-24 lg:px-24">
             <div className="">
-              <h1 className="font-inter text-2xl text-center font-medium text-white w-11/12 md:text-4xl md:w-10/12 lg:text-6xl lg:text-start lg:w-8/12">
+              <h1 className="font-inter text-4xl text-center font-medium text-white w-11/12 md:text-4xl md:w-10/12 lg:text-6xl lg:text-start lg:w-8/12">
                 Your <span className="text-[#868FFF]">Trusted Partner</span> for
                 Tailored Digital Solutions, Designed to{" "}
                 <span className="text-[#868FFF]">Transform Your Success</span>
@@ -42,7 +42,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="px-20 py-10 grid grid-cols-2 gap-8 lg:flex lg:justify-between lg:items-center lg:px-36 lg:py-20">
+        <div className="px-20 py-10 grid grid-cols-2 gap-8 lg:flex lg:justify-between lg:items-center lg:px-36 lg:py-16">
           <img
             src="src/assets/images/company.png"
             alt="logos"
@@ -87,7 +87,7 @@ function App() {
             <img src="src/assets/images/icon1.svg" alt="icon" />
           </div>
         </div>
-        <div className="grid grid-cols-1 px-12 gap-4 mt-20 sm:grid-cols-2 md:px-16 lg:mt-36 lg:flex lg:justify-between">
+        <div className="flex flex-col items-center space-y-12 px-12 mt-20 sm:grid sm:grid-cols-2 lg:px-44 lg:mt-24 lg:flex lg:flex-row lg:space-y-0 lg:items-center lg:justify-between">
           <div className="flex flex-col">
             <img
               src="src/assets/images/icon-video.png"
@@ -252,7 +252,10 @@ function App() {
           </div>
         </div>
         <div className="mt-32 flex justify-center">
-          <a href="#" className="px-6 py-2 bg-[#5454D4] hover:bg-[#4A4AFF]">
+          <a
+            href="#"
+            className="px-6 py-2 text-white bg-[#5454D4] hover:bg-[#4A4AFF]"
+          >
             Get In Touch
           </a>
         </div>
@@ -260,7 +263,7 @@ function App() {
 
       {/* Why Choose Us Section */}
 
-      <section className="bg-[#1E1E1E] px-12 py-12 lg:px-24 lg:py-12">
+      <section className="bg-[#1E1E1E] px-12 py-12 lg:px-24 lg:py-2">
         <div className="flex flex-col items-center mt-12">
           <h2 className="text-[#868FFF] font-poppins text-xs font-semibold">
             OUR PROJECTS
@@ -286,7 +289,7 @@ function App() {
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Front-end
             </span>
-            <h2 className="font-bold text-lg font-poppins text-gray-200 lg:text-xl">
+            <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
               Flex Dealer
             </h2>
           </div>
@@ -299,7 +302,7 @@ function App() {
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               UI/UX Design
             </span>
-            <h2 className="font-bold text-lg font-poppins text-gray-200 lg:text-xl">
+            <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
               Sortseam
             </h2>
           </div>
@@ -312,7 +315,7 @@ function App() {
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Full-stack
             </span>
-            <h2 className="font-bold text-lg font-poppins text-gray-200 lg:text-xl">
+            <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
               Fourth Profile
             </h2>
           </div>
@@ -325,7 +328,7 @@ function App() {
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Front-end
             </span>
-            <h2 className="font-bold text-lg font-poppins text-gray-200 lg:text-xl">
+            <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
               Flex Dealer
             </h2>
           </div>
@@ -338,7 +341,7 @@ function App() {
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               UI/UX Design
             </span>
-            <h2 className="font-bold text-lg font-poppins text-gray-200 lg:text-xl">
+            <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
               Sortseam
             </h2>
           </div>
@@ -351,7 +354,7 @@ function App() {
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Full-stack
             </span>
-            <h2 className="font-bold text-lg font-poppins text-gray-200 lg:text-xl">
+            <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
               Fourth Profile
             </h2>
           </div>
@@ -436,7 +439,7 @@ function App() {
           </ul>
         </div>
         <div className="col-span-1 flex justify-center">
-          <img src="src/assets/images/tools.png" alt="" className="w-9/12" />
+          <img src="src/assets/images/tools.png" alt="" className="w-8/12" />
         </div>
       </section>
       <Footer />

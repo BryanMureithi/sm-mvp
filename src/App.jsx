@@ -247,7 +247,7 @@ function App() {
 
       {/* Why Choose Us Section */}
 
-      <section className="bg-[#1E1E1E] px-12 py-12 lg:px-24 lg:py-2">
+      <section className="bg-[#1E1E1E] px-12 py-12 lg:px-24 lg:pb-24">
         <div className="flex flex-col items-center mt-12">
           <h2 className="text-[#868FFF] font-poppins text-xs font-semibold">
             OUR PROJECTS
@@ -265,21 +265,21 @@ function App() {
         {/* Projects Examples */}
         <div className="grid grid-cols-1 gap-12 mt-24 md:grid-cols-2 lg:grid-cols-3">
           <div className="col-span-1">
-            <img src="/images/work-2.png" alt="" className="rounded-md" />
+            <img src="/images/work-4.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Front-end
             </span>
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
-              Flex Dealer
+              Donga CarSpa
             </h2>
           </div>
           <div className="col-span-1">
-            <img src="/images/work-1.png" alt="" className="rounded-md" />
+            <img src="/images/work-5.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               UI/UX Design
             </span>
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
-              Sortseam
+              AC Steel Engineering
             </h2>
           </div>
           <div className="col-span-1">
@@ -292,21 +292,21 @@ function App() {
             </h2>
           </div>
           <div className="col-span-1">
-            <img src="/images/work-2.png" alt="" className="rounded-md" />
+            <img src="/images/work-4.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Front-end
             </span>
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
-              Flex Dealer
+              Donga Carspa
             </h2>
           </div>
           <div className="col-span-1">
-            <img src="/images/work-1.png" alt="" className="rounded-md" />
+            <img src="/images/work-5.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               UI/UX Design
             </span>
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
-              Sortseam
+              AC Steel Engineering
             </h2>
           </div>
           <div className="col-span-1">

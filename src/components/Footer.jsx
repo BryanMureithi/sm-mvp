@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#1E1E1E] px-12 lg:px-24">
       <div className="flex flex-col justify-between space-y-12 items-center py-6 lg:flex-row lg:justify-between lg:items-center">
-        <img src="src/assets/images/logo.png" alt="" />
+        <img src="/images/logo.png" alt="" />
         <ul className="flex space-x-4 text-white">
           <li>
             <a href="">Services</a>

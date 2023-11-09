@@ -43,26 +43,10 @@ function App() {
           </div>
         </div>
         <div className="px-20 py-10 grid grid-cols-2 gap-8 lg:flex lg:justify-between lg:items-center lg:px-36 lg:py-16">
-          <img
-            src="src/assets/images/company.png"
-            alt="logos"
-            className="col-span-1"
-          />
-          <img
-            src="src/assets/images/company.png"
-            alt="logos"
-            className="col-span-1"
-          />
-          <img
-            src="src/assets/images/company.png"
-            alt="logos"
-            className="col-span-1"
-          />
-          <img
-            src="src/assets/images/company.png"
-            alt="logos"
-            className="col-span-1"
-          />
+          <img src="/images/company.png" alt="logos" className="col-span-1" />
+          <img src="/images/company.png" alt="logos" className="col-span-1" />
+          <img src="/images/company.png" alt="logos" className="col-span-1" />
+          <img src="/images/company.png" alt="logos" className="col-span-1" />
         </div>
       </section>
 
@@ -84,13 +68,13 @@ function App() {
             </p>
           </div>
           <div className="hidden sm:block">
-            <img src="src/assets/images/icon1.svg" alt="icon" />
+            <img src="/images/icon1.svg" alt="icon" />
           </div>
         </div>
         <div className="flex flex-col items-center space-y-12 px-12 mt-20 sm:grid sm:grid-cols-2 lg:px-44 lg:mt-24 lg:flex lg:flex-row lg:space-y-0 lg:items-center lg:justify-between">
           <div className="flex flex-col">
             <img
-              src="src/assets/images/icon-video.png"
+              src="/images/icon-video.png"
               alt=""
               className="w-12 ml-20 lg:w-16 lg:ml-24"
             />
@@ -117,7 +101,7 @@ function App() {
 
           <div className="flex flex-col">
             <img
-              src="src/assets/images/icon2.png"
+              src="/images/icon2.png"
               alt=""
               className="w-12 ml-20 lg:w-16 lg:ml-24"
             />
@@ -144,7 +128,7 @@ function App() {
 
           <div className="flex flex-col mt-12 lg:mt-1">
             <img
-              src="src/assets/images/icon3.png"
+              src="/images/icon3.png"
               alt=""
               className="w-12 ml-16 lg:w-16 lg:ml-24"
             />
@@ -170,7 +154,7 @@ function App() {
           </div>
         </div>
         <div className="flex justify-between items-center mt-24 lg:mt-36">
-          <img src="src/assets/images/icon4.png" alt="icon" />
+          <img src="/images/icon4.png" alt="icon" />
           <div>
             <a href="#" className="px-6 py-2 bg-[#5454D4] hover:bg-[#4A4AFF]">
               Get In Touch
@@ -281,11 +265,7 @@ function App() {
         {/* Projects Examples */}
         <div className="grid grid-cols-1 gap-12 mt-24 md:grid-cols-2 lg:grid-cols-3">
           <div className="col-span-1">
-            <img
-              src="src/assets/images/work-2.png"
-              alt=""
-              className="rounded-md"
-            />
+            <img src="/images/work-2.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Front-end
             </span>
@@ -294,11 +274,7 @@ function App() {
             </h2>
           </div>
           <div className="col-span-1">
-            <img
-              src="src/assets/images/work-1.png"
-              alt=""
-              className="rounded-md"
-            />
+            <img src="/images/work-1.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               UI/UX Design
             </span>
@@ -307,11 +283,7 @@ function App() {
             </h2>
           </div>
           <div className="col-span-1">
-            <img
-              src="src/assets/images/work-2.png"
-              alt=""
-              className="rounded-md"
-            />
+            <img src="/images/work-2.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Full-stack
             </span>
@@ -320,11 +292,7 @@ function App() {
             </h2>
           </div>
           <div className="col-span-1">
-            <img
-              src="src/assets/images/work-2.png"
-              alt=""
-              className="rounded-md"
-            />
+            <img src="/images/work-2.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Front-end
             </span>
@@ -333,11 +301,7 @@ function App() {
             </h2>
           </div>
           <div className="col-span-1">
-            <img
-              src="src/assets/images/work-1.png"
-              alt=""
-              className="rounded-md"
-            />
+            <img src="/images/work-1.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               UI/UX Design
             </span>
@@ -346,11 +310,7 @@ function App() {
             </h2>
           </div>
           <div className="col-span-1">
-            <img
-              src="src/assets/images/work-2.png"
-              alt=""
-              className="rounded-md"
-            />
+            <img src="/images/work-2.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Full-stack
             </span>
@@ -439,7 +399,7 @@ function App() {
           </ul>
         </div>
         <div className="col-span-1 flex justify-center">
-          <img src="src/assets/images/tools.png" alt="" className="w-8/12" />
+          <img src="/images/tools.png" alt="" className="w-8/12" />
         </div>
       </section>
       <Footer />

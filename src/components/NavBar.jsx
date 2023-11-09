@@ -1,7 +1,7 @@
 const NavBar = () => {
   return (
     <nav className="px-8 py-2 lg:px-24 lg:py-3 flex justify-between items-center bg-[#1E1E1E] text-white font-inter text-sm">
-      <img src="src/assets/images/logo.png" alt="logo" />
+      <img src="/images/logo.png" alt="logo" />
       <ul className="lg:flex space-x-12 hidden">
         <li className="text-[#868FFF]">
           <a href="#">Home</a>

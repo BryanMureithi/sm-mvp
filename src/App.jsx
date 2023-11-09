@@ -288,7 +288,7 @@ function App() {
               Full-stack
             </span>
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
-              Fourth Profile
+              Femininity By Rachel V
             </h2>
           </div>
           <div className="col-span-1">
@@ -315,7 +315,7 @@ function App() {
               Full-stack
             </span>
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
-              Fourth Profile
+              Femininity By Rachel V
             </h2>
           </div>
         </div>

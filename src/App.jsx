@@ -283,7 +283,7 @@ function App() {
             </h2>
           </div>
           <div className="col-span-1">
-            <img src="/images/work-2.png" alt="" className="rounded-md" />
+            <img src="/images/work-3.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Full-stack
             </span>
@@ -310,7 +310,7 @@ function App() {
             </h2>
           </div>
           <div className="col-span-1">
-            <img src="/images/work-2.png" alt="" className="rounded-md" />
+            <img src="/images/work-3.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Full-stack
             </span>

@@ -11,7 +11,7 @@ function App() {
       {/* Hero Section */}
       <section className="gradientt">
         <div className="">
-          <div className="px-4 py-16 lg:py-24 lg:px-24">
+          <div className="px-4 py-16 md:px-12 lg:py-24 lg:px-24">
             <div className="">
               <h1 className="font-inter text-4xl font-medium text-white w-11/12 md:text-4xl md:w-10/12 lg:text-6xl lg:text-start lg:w-8/12">
                 Your <span className="text-[#868FFF]">Trusted Partner</span> for
@@ -25,7 +25,7 @@ function App() {
                 Discover how we can help you achieve unparalleled success in the
                 digital world.
               </p>
-              <div className="flex flex-col space-y-6 mt-16 justify-center lg:mt-24 lg:justify-start lg:space-y-0 lg:flex-row lg:space-x-12">
+              <div className="flex flex-col space-y-6 mt-16 justify-center md:mt-24 md:justify-start md:space-y-0 md:flex-row md:space-x-12">
                 <a
                   href="#"
                   className="px-3 py-3 w-full text-center text-white bg-[#5454D4] hover:bg-[#4A4AFF] lg:w-60 lg:px-6 lg:py-3"
@@ -52,7 +52,7 @@ function App() {
 
       {/* What we do Section */}
 
-      <section className="services-gradient px-2 py-12 text-white lg:px-24 lg:py-16">
+      <section className="services-gradient px-2 py-12 text-white md:px-12 lg:px-24 lg:py-16">
         <div className="flex justify-between items-center px-12">
           <div className=""></div>
           <div className="flex flex-col items-center">
@@ -71,7 +71,7 @@ function App() {
             <img src="/images/icon1.svg" alt="icon" />
           </div>
         </div>
-        <div className="flex flex-col space-y-12 px-4 mt-20 sm:grid sm:grid-cols-2 lg:px-44 lg:mt-24 lg:flex lg:flex-row lg:space-y-0 lg:items-center lg:justify-between">
+        <div className="flex flex-col space-y-12 px-4 mt-20 sm:grid sm:grid-cols-2 md:space-y-0 lg:px-44 lg:mt-24 lg:flex lg:flex-row lg:space-y-0 lg:items-center lg:justify-between">
           <div className="flex flex-col">
             <img
               src="/images/icon-video.png"
@@ -166,7 +166,7 @@ function App() {
 
       {/* Why Choose Us Section */}
 
-      <section className="services-gradient  px-2 py-12 lg:px-24 lg:py-12">
+      <section className="services-gradient  px-2 py-12 md:px-12 lg:px-24 lg:py-12">
         <div className="flex flex-col items-center">
           <h2 className="text-[#868FFF] font-poppins text-xs font-semibold">
             WHY CHOOSE US
@@ -179,7 +179,7 @@ function App() {
             specific requirements.
           </p>
         </div>
-        <div className="grid grid-cols-1 mt-20 px-4 gap-12 md:grid-cols-2 lg:mt-32 lg:px-28 lg:gap-24 lg:grid-cols-3">
+        <div className="grid grid-cols-1 mt-20 px-4 gap-12 md:grid-cols-2 md:px-12 lg:mt-32 lg:px-28 lg:gap-24 lg:grid-cols-3">
           <div className="col-span-1 border border-transparent hover:border-[#5454D4] hover:rounded-lg p-4">
             <h2 className="text-white mt-2 font-poppins text-xl font-semibold">
               Client-Centric Excellence

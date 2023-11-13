@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <nav className="px-4 py-2 lg:px-24 lg:py-3 flex justify-between items-center bg-[#1E1E1E] text-white font-inter text-sm">
+    <nav className="px-4 py-2 md:px-12 lg:px-24 lg:py-3 flex justify-between items-center bg-[#1E1E1E] text-white font-inter text-sm">
       <img src="/images/logo.png" alt="logo" />
       <ul className="lg:flex space-x-12 hidden">
         <li className="text-[#868FFF]">

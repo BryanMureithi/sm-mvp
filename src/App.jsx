@@ -11,30 +11,30 @@ function App() {
       {/* Hero Section */}
       <section className="gradientt">
         <div className="">
-          <div className="px-12 py-16 lg:py-24 lg:px-24">
+          <div className="px-4 py-16 lg:py-24 lg:px-24">
             <div className="">
-              <h1 className="font-inter text-4xl text-center font-medium text-white w-11/12 md:text-4xl md:w-10/12 lg:text-6xl lg:text-start lg:w-8/12">
+              <h1 className="font-inter text-4xl font-medium text-white w-11/12 md:text-4xl md:w-10/12 lg:text-6xl lg:text-start lg:w-8/12">
                 Your <span className="text-[#868FFF]">Trusted Partner</span> for
                 Tailored Digital Solutions, Designed to{" "}
                 <span className="text-[#868FFF]">Transform Your Success</span>
               </h1>
-              <p className="text-[#A8A8A8] mt-16 font-inter text-center font-normal text-sm w-12/12 md:text-base md:w-10/12 lg:w-5/12 lg:text-start lg:text-base">
+              <p className="text-[#A8A8A8] mt-10 font-inter font-normal text-sm w-12/12 md:text-base md:w-10/12 lg:mt-16 lg:w-5/12 lg:text-start lg:text-base">
                 At Sortseam, we're here to make your digital dreams a reality.
                 Our dedicated team specializes in creating custom digital
                 solutions that are perfectly suited to your unique needs.
                 Discover how we can help you achieve unparalleled success in the
                 digital world.
               </p>
-              <div className="flex space-x-12 mt-24 justify-center lg:justify-start">
+              <div className="flex flex-col space-y-6 mt-16 justify-center lg:mt-24 lg:justify-start lg:space-y-0 lg:flex-row lg:space-x-12">
                 <a
                   href="#"
-                  className="px-3 py-3 text-white bg-[#5454D4] hover:bg-[#4A4AFF] lg:px-6 lg:py-3"
+                  className="px-3 py-3 w-full text-center text-white bg-[#5454D4] hover:bg-[#4A4AFF] lg:w-60 lg:px-6 lg:py-3"
                 >
                   <span className="text-sm lg:text-base">Book a Meeting</span>
                 </a>
                 <a
                   href="#"
-                  className="px-3 py-3 text-[#A8A8A8] border border-[#5454D4] hover:bg-[#4A4AFF] hover:text-white lg:px-6 lg:py-3"
+                  className="px-3 py-3 w-full text-center text-[#A8A8A8] border border-[#5454D4] hover:bg-[#4A4AFF] hover:text-white lg:w-60 lg:px-6 lg:py-3"
                 >
                   <span className="text-sm lg:text-base">See Our Work</span>
                 </a>
@@ -42,7 +42,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="px-20 py-10 grid grid-cols-2 gap-8 lg:flex lg:justify-between lg:items-center lg:px-36 lg:py-16">
+        <div className="px-10 py-10 grid grid-cols-2 gap-8 lg:flex lg:justify-between lg:items-center lg:px-36 lg:py-16">
           <img src="/images/company.png" alt="logos" className="col-span-1" />
           <img src="/images/company.png" alt="logos" className="col-span-1" />
           <img src="/images/company.png" alt="logos" className="col-span-1" />
@@ -52,7 +52,7 @@ function App() {
 
       {/* What we do Section */}
 
-      <section className="services-gradient px-12 py-12 text-white lg:px-24 lg:py-16">
+      <section className="services-gradient px-2 py-12 text-white lg:px-24 lg:py-16">
         <div className="flex justify-between items-center px-12">
           <div className=""></div>
           <div className="flex flex-col items-center">
@@ -71,7 +71,7 @@ function App() {
             <img src="/images/icon1.svg" alt="icon" />
           </div>
         </div>
-        <div className="flex flex-col items-center space-y-12 px-12 mt-20 sm:grid sm:grid-cols-2 lg:px-44 lg:mt-24 lg:flex lg:flex-row lg:space-y-0 lg:items-center lg:justify-between">
+        <div className="flex flex-col space-y-12 px-4 mt-20 sm:grid sm:grid-cols-2 lg:px-44 lg:mt-24 lg:flex lg:flex-row lg:space-y-0 lg:items-center lg:justify-between">
           <div className="flex flex-col">
             <img
               src="/images/icon-video.png"
@@ -166,7 +166,7 @@ function App() {
 
       {/* Why Choose Us Section */}
 
-      <section className="services-gradient  px-12 py-12 lg:px-24 lg:py-12">
+      <section className="services-gradient  px-2 py-12 lg:px-24 lg:py-12">
         <div className="flex flex-col items-center">
           <h2 className="text-[#868FFF] font-poppins text-xs font-semibold">
             WHY CHOOSE US
@@ -179,7 +179,7 @@ function App() {
             specific requirements.
           </p>
         </div>
-        <div className="grid grid-cols-1 mt-20 px-24 gap-12 md:grid-cols-2 lg:mt-32 lg:px-28 lg:gap-24 lg:grid-cols-3">
+        <div className="grid grid-cols-1 mt-20 px-4 gap-12 md:grid-cols-2 lg:mt-32 lg:px-28 lg:gap-24 lg:grid-cols-3">
           <div className="col-span-1 border border-transparent hover:border-[#5454D4] hover:rounded-lg p-4">
             <h2 className="text-white mt-2 font-poppins text-xl font-semibold">
               Client-Centric Excellence
@@ -252,10 +252,10 @@ function App() {
           <h2 className="text-[#868FFF] font-poppins text-xs font-semibold">
             OUR PROJECTS
           </h2>
-          <h3 className="text-white mt-2 font-poppins text-2xl font-semibold md:text-3xl">
+          <h3 className="text-white text-center mt-2 font-poppins text-xl font-semibold md:text-3xl">
             Custom Work We Have Worked On
           </h3>
-          <p className="mt-4 text-[#D4D4D4] text-center font-poppins text-sm font-normal w-9/12 lg:w-5/12">
+          <p className="mt-4 text-[#D4D4D4] text-center font-poppins text-sm font-normal w-11/12 lg:w-5/12">
             Explore our diverse portfolio of completed projects. From web
             development and digital marketing to app design and branding, our
             projects exemplify our expertise and commitment to delivering
@@ -323,13 +323,13 @@ function App() {
 
       {/* Our Values Section */}
 
-      <section className="px-24 py-12 bg-[#4A4AFF]">
+      <section className="px-4 py-12 bg-[#4A4AFF] lg:px-24">
         <div className="flex justify-center items-center">
           <h2 className="text-white w-8/12 text-center font-poppins text-2xl font-semibold lg:w-5/12 lg:text-3xl">
             Our values define our teams and determine our partners.
           </h2>
         </div>
-        <div className="grid grid-cols-2 gap-12 mt-16 lg:grid-cols-5 lg:gap-2 lg:mt-24">
+        <div className="grid grid-cols-2 gap-10 mt-16 lg:grid-cols-5 lg:gap-2 lg:mt-24">
           <div className="col-span-1">
             <h3 className="text-white text-lg w-6/12 font-poppins font-semibold lg:text-xl">
               People First
@@ -380,7 +380,7 @@ function App() {
 
       {/* Tools and Experience Section */}
 
-      <section className="px-12 py-8 tools-gradient grid grid-cols-1 lg:px-24 lg:py-12 lg:grid-cols-2">
+      <section className="shadow-md shadow-[#4A4AFF] px-12 py-8 tools-gradient grid grid-cols-1 lg:px-24 lg:py-12 lg:grid-cols-2">
         <div className="col-span-1 space-y-8 py-24">
           <h2 className="text-white font-inter text-4xl font-bold">
             Tools and Experience
@@ -400,6 +400,99 @@ function App() {
         </div>
         <div className="col-span-1 flex justify-center">
           <img src="/images/tools.png" alt="" className="w-8/12" />
+        </div>
+      </section>
+
+      {/* Contact Form */}
+      <section className="tools-gradient">
+        <div class="flex flex-col items-center py-12 justify-around px-4 sm:px-6 lg:px-8 lg:flex-row">
+          <div class="max-w-md w-full space-y-8">
+            <div>
+              <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-400">
+                Contact Us
+              </h2>
+            </div>
+            <form class="mt-8 space-y-6" action="#" method="POST">
+              <input type="hidden" name="remember" value="true" />
+              <div class="rounded-md shadow-sm">
+                <div>
+                  <label for="name" class="sr-only">
+                    Full Name
+                  </label>
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    autocomplete="name"
+                    required
+                    class="appearance-none rounded-md relative block w-full px-3 py-2 my-4 bg-transparent border border-[#4A4AFF] placeholder-[#868FFF] text-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                    placeholder="Full Name"
+                  />
+                </div>
+                <div className="">
+                  <label for="phone" class="sr-only">
+                    Phone Number
+                  </label>
+                  <input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    autocomplete="tel"
+                    required
+                    class="appearance-none rounded-md relative block w-full px-3 py-2 my-8 bg-transparent border border-[#4A4AFF] placeholder-[#868FFF] text-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                    placeholder="Phone Number"
+                  />
+                </div>
+                <div>
+                  <label for="message" class="sr-only">
+                    Message
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                    class="appearance-none rounded-md relative block w-full px-3 py-2 bg-transparent border border-[#4A4AFF] placeholder-[#868FFF] text-white rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div>
+                <button
+                  type="submit"
+                  class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+          <div className="max-w-md w-full mt-16 md:mt-12 lg:mt-0">
+            <h2 className="text-[#868FFF] font-bold text-sm">TESTIMONIALS</h2>
+            <h3 className="text-4xl text-white font-bold mt-4">
+              Get In <span className="text-[#868FFF]">Touch</span>
+            </h3>
+            <div className="h-1 w-24 mt-2 bg-[#868FFF]"></div>
+            <p className="my-6 text-gray-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              tempora cumque at repudiandae repellat facere, officia voluptatum
+              sed odit consectetur amet vero nostrum, ea soluta aliquam
+              explicabo enim facilis corrupti.
+            </p>
+            <div className="mt-8">
+              <h2 className="text-xl font-semibold text-white">
+                Email Address
+              </h2>
+              <p className="text-sm text-[#868FFF]">info@sortseam.com</p>
+            </div>
+            <div className="mt-8">
+              <h2 className="text-xl font-semibold text-white">Phone Number</h2>
+              <p className="text-sm text-[#868FFF]">
+                +254757327949 | +25493105866
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <Footer />

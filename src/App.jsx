@@ -179,7 +179,7 @@ function App() {
             specific requirements.
           </p>
         </div>
-        <div className="grid grid-cols-1 mt-20 px-4 gap-12 md:grid-cols-2 md:px-12 lg:mt-32 lg:px-28 lg:gap-24 lg:grid-cols-3">
+        <div className="grid grid-cols-1 mt-20 px-4 gap-12 md:grid-cols-2 md:px-12 lg:mt-32 lg:px-16 lg:gap-24 lg:grid-cols-3">
           <div className="col-span-1 border border-transparent hover:border-[#5454D4] hover:rounded-lg p-4">
             <h2 className="text-white mt-2 font-poppins text-xl font-semibold">
               Client-Centric Excellence
@@ -267,7 +267,7 @@ function App() {
           <div className="col-span-1">
             <img src="/images/work-4.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
-              Front-end
+              Website
             </span>
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
               Donga CarSpa
@@ -276,7 +276,7 @@ function App() {
           <div className="col-span-1">
             <img src="/images/work-5.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
-              UI/UX Design
+              Website
             </span>
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
               AC Steel Engineering
@@ -285,7 +285,7 @@ function App() {
           <div className="col-span-1">
             <img src="/images/work-3.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
-              Full-stack
+              Website
             </span>
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
               Femininity By Rachel V
@@ -294,7 +294,7 @@ function App() {
           <div className="col-span-1">
             <img src="/images/work-4.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
-              Front-end
+              Website
             </span>
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
               Donga Carspa
@@ -303,7 +303,7 @@ function App() {
           <div className="col-span-1">
             <img src="/images/work-5.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
-              UI/UX Design
+              Website
             </span>
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
               AC Steel Engineering
@@ -312,7 +312,7 @@ function App() {
           <div className="col-span-1">
             <img src="/images/work-3.png" alt="" className="rounded-md" />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
-              Full-stack
+              Podcast
             </span>
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
               Femininity By Rachel V
@@ -331,7 +331,7 @@ function App() {
         </div>
         <div className="grid grid-cols-2 gap-10 mt-16 lg:grid-cols-5 lg:gap-2 lg:mt-24">
           <div className="col-span-1">
-            <h3 className="text-white text-lg w-6/12 font-poppins font-semibold lg:text-xl">
+            <h3 className="text-white text-lg w-6/12 font-poppins font-semibold lg:text-xl lg:w-5/12">
               People First
             </h3>
             <p className="text-white font-poppins w-11/12 text-sm font-normal mt-2 lg:w-9/12">

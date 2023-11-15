@@ -4,7 +4,7 @@ const NavBar = () => {
       <img src="/images/logo.png" alt="logo" />
       <ul className="lg:flex space-x-12 hidden">
         <li className="text-[#868FFF]">
-          <a href="#">Home</a>
+          <a href={`/`}>Home</a>
         </li>
         <li className="hover:text-[#868FFF]">
           <a href="#">About Us</a>
@@ -13,7 +13,7 @@ const NavBar = () => {
           <a href="#">Services</a>
         </li>
         <li className="hover:text-[#868FFF]">
-          <a href="#">Projects</a>
+          <a href={`/projects`}>Projects</a>
         </li>
       </ul>
       <a

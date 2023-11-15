@@ -274,7 +274,7 @@ function App() {
             </h2>
           </div>
           <div className="col-span-1">
-            <img src="/images/work-5.png" alt="" className="rounded-md" />
+            <img src="/images/work-5.png" alt="" className="rounded-md " />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Website
             </span>
@@ -283,7 +283,7 @@ function App() {
             </h2>
           </div>
           <div className="col-span-1">
-            <img src="/images/work-3.png" alt="" className="rounded-md" />
+            <img src="/images/work-3.png" alt="" className="rounded-md " />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Website
             </span>
@@ -292,25 +292,37 @@ function App() {
             </h2>
           </div>
           <div className="col-span-1">
-            <img src="/images/work-4.png" alt="" className="rounded-md" />
+            <img
+              src="/images/marty.jpeg"
+              alt=""
+              className="rounded-md w-full h-3/5"
+            />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
-              Website
+              Podcast
             </span>
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
-              Donga Carspa
+              The Marty Party Podcast
             </h2>
           </div>
           <div className="col-span-1">
-            <img src="/images/work-5.png" alt="" className="rounded-md" />
+            <img
+              src="/images/buybuild.jpeg"
+              alt=""
+              className="rounded-md w-full h-3/5"
+            />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
-              Website
+              Podcast
             </span>
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
-              AC Steel Engineering
+              Buy and Build
             </h2>
           </div>
           <div className="col-span-1">
-            <img src="/images/work-3.png" alt="" className="rounded-md" />
+            <img
+              src="/images/rachelpodcast.jpeg"
+              alt=""
+              className="rounded-md w-full h-3/5"
+            />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Podcast
             </span>

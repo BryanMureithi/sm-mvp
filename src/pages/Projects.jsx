@@ -14,7 +14,7 @@ const Projects = () => {
               <img
                 src="/images/work-5.png"
                 alt=""
-                className="max-w-full rounded-xl"
+                className="max-w-full rounded-lg"
               />
             </div>
             <div className="col-span-1 text-white flex flex-col justify-center space-y-4">
@@ -28,10 +28,10 @@ const Projects = () => {
                 dolores porro omnis magni voluptatum laudantium! Repellat.
               </p>
               <a
-                href="https://sortseam.vercel.app/"
+                href="https://acsteel.vercel.app/"
                 className="text-[#5454D4] hover:underline"
               >
-                https://sortseam.vercel.app/
+                https://acsteel.vercel.app/
               </a>
             </div>
           </div>

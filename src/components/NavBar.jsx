@@ -17,7 +17,7 @@ const NavBar = () => {
         </li>
       </ul>
       <a
-        href="#"
+        href="#contact"
         className="hidden lg:block px-6 py-2 bg-[#5454D4] hover:bg-[#4A4AFF] rounded-full"
       >
         Get In Touch

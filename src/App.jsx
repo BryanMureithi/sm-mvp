@@ -27,13 +27,13 @@ function App() {
               </p>
               <div className="flex flex-col space-y-6 mt-16 justify-center md:mt-24 md:justify-start md:space-y-0 md:flex-row md:space-x-12">
                 <a
-                  href="#"
+                  href="#contact"
                   className="px-3 py-3 w-full text-center text-white bg-[#5454D4] hover:bg-[#4A4AFF] lg:w-60 lg:px-6 lg:py-3"
                 >
                   <span className="text-sm lg:text-base">Book a Meeting</span>
                 </a>
                 <a
-                  href="#"
+                  href={`/projects`}
                   className="px-3 py-3 w-full text-center text-[#A8A8A8] border border-[#5454D4] hover:bg-[#4A4AFF] hover:text-white lg:w-60 lg:px-6 lg:py-3"
                 >
                   <span className="text-sm lg:text-base">See Our Work</span>
@@ -293,9 +293,9 @@ function App() {
           </div>
           <div className="col-span-1">
             <img
-              src="/images/marty.jpeg"
+              src="/images/marty-party.png"
               alt=""
-              className="rounded-md w-full h-3/5"
+              className="rounded-md max-w-full"
             />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Podcast
@@ -306,9 +306,9 @@ function App() {
           </div>
           <div className="col-span-1">
             <img
-              src="/images/buybuild.jpeg"
+              src="/images/buy-build.png"
               alt=""
-              className="rounded-md w-full h-3/5"
+              className="rounded-md w-auto"
             />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Podcast
@@ -319,9 +319,9 @@ function App() {
           </div>
           <div className="col-span-1">
             <img
-              src="/images/rachelpodcast.jpeg"
+              src="/images/rachelv.png"
               alt=""
-              className="rounded-md w-full h-3/5"
+              className="rounded-md w-auto"
             />
             <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
               Podcast
@@ -416,7 +416,7 @@ function App() {
       </section>
 
       {/* Contact Form */}
-      <section className="tools-gradient">
+      <section id="contact" className="tools-gradient">
         <div class="flex flex-col items-center py-12 justify-around px-4 sm:px-6 lg:px-8 lg:flex-row">
           <div class="max-w-md w-full space-y-8">
             <div>

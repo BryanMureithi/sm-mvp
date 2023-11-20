@@ -25,12 +25,8 @@ const Footer = () => {
       <div className="flex justify-between items-center py-6">
         <p className="text-white text-sm">
           © 2023 Sorstseam. All Rights Reserved |{" "}
-          <a href="" className="hover:text-[#5454D4]">
+          <a href={"/Terms"} className="hover:text-[#5454D4]">
             Terms & Conditions
-          </a>{" "}
-          |{" "}
-          <a href="" className="hover:text-[#5454D4]">
-            Privacy Policy
           </a>
         </p>
       </div>

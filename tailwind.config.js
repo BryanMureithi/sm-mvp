@@ -8,6 +8,9 @@ export default {
         raleway: ["Raleway", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
+      backgroundImage: {
+        marty: "url('/images/marty.jpeg')",
+      },
     },
   },
   plugins: [],

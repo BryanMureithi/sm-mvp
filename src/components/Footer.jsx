@@ -15,10 +15,10 @@ const Footer = () => {
           </li>
         </ul>
         <a
-          href="#"
+          href={`/projects`}
           className="px-6 py-2 text-white bg-[#5454D4] hover:bg-[#4A4AFF]"
         >
-          Get In Touch
+          Explore Projects
         </a>
       </div>
       <hr className="w-full text-gray-500" />

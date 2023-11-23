@@ -87,6 +87,32 @@ const Projects = () => {
               </a>
             </div>
           </div>
+          <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+            <div className="col-span-1">
+              <img
+                src="/images/rachelv.png"
+                alt=""
+                className="max-w-full rounded-xl"
+              />
+            </div>
+            <div className="col-span-1 text-white flex flex-col justify-center space-y-4">
+              <h1 className="text-2xl font-semibold lg:text-3xl">
+                Femininity by Rachel V Podcast
+              </h1>
+              <p className="text-base text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium maiores officia quibusdam similique nesciunt aut
+                sint vitae? Corrupti dolor, reiciendis magnam maxime veritatis
+                dolores porro omnis magni voluptatum laudantium! Repellat.
+              </p>
+              <a
+                href="https://www.dongacarspa.com/"
+                className="text-[#5454D4] hover:underline"
+              >
+                https://www.dongacarspa.com/
+              </a>
+            </div>
+          </div>
         </div>
       </main>
       <Footer />

@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 const NavBar = () => {
   return (
     <nav className="px-4 py-2 md:px-12 lg:px-24 lg:py-3 flex justify-between items-center bg-[#1E1E1E] text-white font-inter text-sm">
@@ -7,21 +9,13 @@ const NavBar = () => {
           <a href={`/`}>Home</a>
         </li>
         <li className="hover:text-[#868FFF]">
-          <a href="#">About Us</a>
-        </li>
-        <li className="hover:text-[#868FFF]">
           <a href="#">Services</a>
         </li>
         <li className="hover:text-[#868FFF]">
           <a href={`/projects`}>Projects</a>
         </li>
       </ul>
-      <a
-        href="#contact"
-        className="hidden lg:block px-6 py-2 bg-[#5454D4] hover:bg-[#4A4AFF] rounded-full"
-      >
-        Get In Touch
-      </a>
+      <Button title="Get in Touch" />
       <a href="" className="lg:hidden">
         <box-icon name="menu" color="#5454D4" size="lg"></box-icon>
       </a>

@@ -184,54 +184,59 @@ function App() {
             <h2 className="text-white mt-2 font-poppins text-xl font-semibold">
               Client-Centric Excellence
             </h2>
-            <p className="text-[#878988] font-poppins text-sm mt-2 font-normal w-10/12">
-              Understand how our unwavering commitment to client satisfaction
-              sets us apart in the digital industry.
+            <p className="text-[#878988] font-poppins text-sm mt-2 font-normal w-full">
+              We prioritize open communication, collaboration, and a tailored
+              approach to provide solutions that align perfectly with your
+              vision.
             </p>
           </div>
           <div className="col-span-1 border border-transparent hover:border-[#5454D4] hover:rounded-lg p-4">
             <h2 className="text-white mt-2 font-poppins text-xl font-semibold">
               Our Proven Track Record
             </h2>
-            <p className="text-[#878988] font-poppins text-sm mt-2 font-normal w-10/12">
-              Understand how our unwavering commitment to client satisfaction
-              sets us apart in the digital industry.
+            <p className="text-[#878988] font-poppins text-sm mt-2 font-normal w-full">
+              Dive into a collection of successful projects that showcase our
+              expertise, creativity, and the tangible impact we've made for
+              businesses across diverse industries.
             </p>
           </div>
           <div className="col-span-1 border border-transparent hover:border-[#5454D4] hover:rounded-lg p-4">
             <h2 className="text-white mt-2 font-poppins text-xl font-semibold">
               24/7 Support and Dedication
             </h2>
-            <p className="text-[#878988] font-poppins text-sm mt-2 font-normal w-10/12">
-              Understand how our unwavering commitment to client satisfaction
-              sets us apart in the digital industry.
+            <p className="text-[#878988] font-poppins text-sm mt-2 font-normal w-full">
+              Your success is our priority, and our commitment goes beyond
+              office hours. With sortseam, enjoy the assurance of 24/7 support
+              and dedication.
             </p>
           </div>
           <div className="col-span-1 border border-transparent hover:border-[#5454D4] hover:rounded-lg p-4">
             <h2 className="text-white mt-2 font-poppins text-xl font-semibold">
               Innovation Meets Reliability
             </h2>
-            <p className="text-[#878988] font-poppins text-sm mt-2 font-normal w-10/12">
-              Understand how our unwavering commitment to client satisfaction
-              sets us apart in the digital industry.
+            <p className="text-[#878988] font-poppins text-sm mt-2 font-normal w-full">
+              We pride ourselves on pushing the boundaries of creativity while
+              maintaining unwavering reliability in project delivery.
             </p>
           </div>
           <div className="col-span-1 border border-transparent hover:border-[#5454D4] hover:rounded-lg p-4">
             <h2 className="text-white mt-2 font-poppins text-xl font-semibold">
               Industry Leading Experts
             </h2>
-            <p className="text-[#878988] font-poppins text-sm mt-2 font-normal w-10/12">
-              Understand how our unwavering commitment to client satisfaction
-              sets us apart in the digital industry.
+            <p className="text-[#878988] font-poppins text-sm mt-2 font-normal w-full">
+              By choosing us, you entrust your vision to a team that not only
+              understands the intricacies of your industry but also sets the
+              standard for excellence.
             </p>
           </div>
           <div className="col-span-1 border border-transparent hover:border-[#5454D4] hover:rounded-lg p-4">
             <h2 className="text-white mt-2 font-poppins text-xl font-semibold">
               Client Testimonials
             </h2>
-            <p className="text-[#878988] font-poppins text-sm mt-2 font-normal w-10/12">
-              Understand how our unwavering commitment to client satisfaction
-              sets us apart in the digital industry.
+            <p className="text-[#878988] font-poppins text-sm mt-2 font-normal w-full">
+              Discover the stories of success directly from our clients. Our
+              testimonials offer firsthand accounts of the positive experiences
+              businesses have had while working with sortseam.
             </p>
           </div>
         </div>
@@ -337,49 +342,52 @@ function App() {
 
       <section className="px-4 py-12 bg-[#4A4AFF] lg:px-24">
         <div className="flex justify-center items-center">
-          <h2 className="text-white w-8/12 text-center font-poppins text-2xl font-semibold lg:w-5/12 lg:text-3xl">
+          <h2 className="text-white w-8/12 text-center font-poppins text-xl font-semibold lg:w-5/12 lg:text-3xl">
             Our values define our teams and determine our partners.
           </h2>
         </div>
-        <div className="grid grid-cols-2 gap-10 mt-16 lg:grid-cols-5 lg:gap-2 lg:mt-24">
+        <div className="grid grid-cols-1 px-12 gap-10 mt-16 lg:grid-cols-2 xl:grid-cols-5 xl:gap-x-5 lg:gap-y-10 lg:mt-24">
           <div className="col-span-1">
             <h3 className="text-white text-lg w-6/12 font-poppins font-semibold lg:text-xl lg:w-5/12">
               People First
             </h3>
-            <p className="text-white font-poppins w-11/12 text-sm font-normal mt-2 lg:w-9/12">
-              We care about People before products and profits
+            <p className="text-white font-poppins w-full text-sm font-normal mt-2 lg:w-9/12">
+              Putting people at the forefront ensures meaningful, collaborative,
+              and impactful solutions.
             </p>
           </div>
           <div className="col-span-1">
             <h3 className="text-white text-lg w-6/12 font-poppins font-semibold lg:text-xl">
               Always Learning
             </h3>
-            <p className="text-white font-poppins w-11/12 text-sm font-normal mt-2 lg:w-9/12">
-              We care about People before products and profits
+            <p className="text-white font-poppins w-full text-sm font-normal mt-2 lg:w-9/12">
+              We stay at the forefront of industry trends, technologies, and
+              strategies.
             </p>
           </div>
           <div className="col-span-1">
             <h3 className="text-white text-lg w-6/12 font-poppins font-semibold lg:text-xl">
               Trust is Everything
             </h3>
-            <p className="text-white font-poppins w-11/12 text-sm font-normal mt-2 lg:w-9/12">
-              We care about People before products and profits
+            <p className="text-white font-poppins w-full text-sm font-normal mt-2 lg:w-9/12">
+              Choosing us means choosing a partner you can trust to bring your
+              vision to life.
             </p>
           </div>
           <div className="col-span-1">
             <h3 className="text-white text-lg w-7/12 font-poppins font-semibold lg:text-xl">
               Dream and Deliver Big
             </h3>
-            <p className="text-white font-poppins w-11/12 text-sm font-normal mt-2 lg:w-9/12">
-              We care about People before products and profits
+            <p className="text-white font-poppins w-full text-sm font-normal mt-2 lg:w-9/12">
+              We encourage our clients to envision their boldest ideas.
             </p>
           </div>
           <div className="col-span-1">
             <h3 className="text-white text-lg w-9/12 font-poppins font-semibold lg:text-xl">
               Client Success is our Success
             </h3>
-            <p className="text-white font-poppins w-11/12 text-sm font-normal mt-2 lg:w-9/12">
-              We care about People before products and profits
+            <p className="text-white font-poppins w-full text-sm font-normal mt-2 lg:w-9/12">
+              Your success is not just a goal; it's our measure of achievement.
             </p>
           </div>
         </div>
@@ -417,7 +425,7 @@ function App() {
 
       {/* Contact Form */}
       <section id="contact" className="tools-gradient">
-        <div class="flex flex-col items-center py-12 justify-around px-4 sm:px-6 lg:px-8 lg:flex-row">
+        <div class="flex flex-col items-center py-12 justify-around lg:px-8 lg:flex-row">
           <div class="max-w-md w-full space-y-8">
             <div>
               <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-400">
@@ -487,10 +495,11 @@ function App() {
             </h3>
             <div className="h-1 w-24 mt-2 bg-[#868FFF]"></div>
             <p className="my-6 text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-              tempora cumque at repudiandae repellat facere, officia voluptatum
-              sed odit consectetur amet vero nostrum, ea soluta aliquam
-              explicabo enim facilis corrupti.
+              Ready to embark on a transformative journey? Whether you have a
+              project in mind, questions about our services, or just want to say
+              hello, we invite you to get in touch. Our team at sortseam is here
+              to listen, collaborate, and bring your ideas to life. Reach out
+              today, and let's start creating something extraordinary together.
             </p>
             <div className="mt-8">
               <h2 className="text-xl font-semibold text-white">

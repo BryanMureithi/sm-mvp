@@ -71,7 +71,7 @@ function App() {
             <img src="/images/icon1.svg" alt="icon" />
           </div>
         </div>
-        <div className="flex flex-col space-y-12 px-4 mt-20 sm:grid sm:grid-cols-2 md:space-y-0 lg:px-44 lg:mt-24 lg:flex lg:flex-row lg:space-y-0 lg:items-center lg:justify-between">
+        <div className="flex flex-col items-center space-y-12 px-4 mt-20 sm:grid sm:grid-cols-2 md:space-y-0 lg:px-44 lg:mt-24 lg:flex lg:flex-row lg:space-y-0 lg:items-center lg:justify-between">
           <div className="flex flex-col">
             <img
               src="/images/icon-video.png"
@@ -418,8 +418,8 @@ function App() {
             <li>Social Media Management</li>
           </ul>
         </div>
-        <div className="col-span-1 flex justify-center">
-          <img src="/images/tools.png" alt="" className="w-8/12" />
+        <div className="col-span-1 flex justify-center lg:justify-start">
+          <img src="/images/toolss.png" alt="" className="w-8/12" />
         </div>
       </section>
 

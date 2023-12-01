@@ -193,7 +193,10 @@ function App() {
         <div className="flex justify-between items-center mt-24 lg:mt-36">
           <img src="/images/icon4.png" alt="icon" />
           <div>
-            <a href="#" className="px-6 py-2 bg-[#5454D4] hover:bg-[#4A4AFF]">
+            <a
+              href="#contact"
+              className="px-6 py-2 bg-[#5454D4] hover:bg-[#4A4AFF]"
+            >
               Get In Touch
             </a>
           </div>
@@ -279,7 +282,7 @@ function App() {
         </div>
         <div className="mt-32 flex justify-center">
           <a
-            href="#"
+            href="#contact"
             className="px-6 py-2 text-white bg-[#5454D4] hover:bg-[#4A4AFF]"
           >
             Get In Touch
@@ -429,7 +432,7 @@ function App() {
           </div>
         </div>
         <div className="mt-32 flex justify-center">
-          <a href="#" className="px-6 py-2 bg-[#1E1E1E] text-white">
+          <a href="#contact" className="px-6 py-2 bg-[#1E1E1E] text-white">
             Start a Conversation
           </a>
         </div>

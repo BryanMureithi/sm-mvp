@@ -1,8 +1,42 @@
+import { useState } from "react";
+import axios from "axios";
+
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 import "./assets/css/hero.css";
 
 function App() {
+  //Form states
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+
+  //Submit event
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const data = {
+      Name: name,
+      Email: email,
+      Phone: phone,
+      Message: message,
+    };
+
+    axios
+      .post(
+        "https://sheet.best/api/sheets/0d529c7f-b0f9-4487-ac96-0c2fab9764b8",
+        data
+      )
+      .then((response) => {
+        alert("Message sent successfully");
+        setName("");
+        setEmail("");
+        setPhone("");
+        setMessage("");
+      });
+  };
+
   return (
     <div classname="bg-[#1E1E1E] h-full font-raleway">
       <header>
@@ -52,7 +86,10 @@ function App() {
 
       {/* What we do Section */}
 
-      <section className="services-gradient px-2 py-12 text-white md:px-12 lg:px-24 lg:py-16">
+      <section
+        id="services"
+        className="services-gradient px-2 py-12 text-white md:px-12 lg:px-24 lg:py-16"
+      >
         <div className="flex justify-between items-center px-12">
           <div className=""></div>
           <div className="flex flex-col items-center">
@@ -425,69 +462,7 @@ function App() {
 
       {/* Contact Form */}
       <section id="contact" className="tools-gradient">
-        <div class="flex flex-col items-center py-12 justify-around lg:px-8 lg:flex-row">
-          <div class="max-w-md w-full space-y-8">
-            <div>
-              <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-400">
-                Contact Us
-              </h2>
-            </div>
-            <form class="mt-8 space-y-6" action="#" method="POST">
-              <input type="hidden" name="remember" value="true" />
-              <div class="rounded-md shadow-sm">
-                <div>
-                  <label for="name" class="sr-only">
-                    Full Name
-                  </label>
-                  <input
-                    id="name"
-                    name="name"
-                    type="text"
-                    autocomplete="name"
-                    required
-                    class="appearance-none rounded-md relative block w-full px-3 py-2 my-4 bg-transparent border border-[#4A4AFF] placeholder-[#868FFF] text-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                    placeholder="Full Name"
-                  />
-                </div>
-                <div className="">
-                  <label for="phone" class="sr-only">
-                    Phone Number
-                  </label>
-                  <input
-                    id="phone"
-                    name="phone"
-                    type="tel"
-                    autocomplete="tel"
-                    required
-                    class="appearance-none rounded-md relative block w-full px-3 py-2 my-8 bg-transparent border border-[#4A4AFF] placeholder-[#868FFF] text-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                    placeholder="Phone Number"
-                  />
-                </div>
-                <div>
-                  <label for="message" class="sr-only">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows="4"
-                    required
-                    class="appearance-none rounded-md relative block w-full px-3 py-2 bg-transparent border border-[#4A4AFF] placeholder-[#868FFF] text-white rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                    placeholder="Message"
-                  ></textarea>
-                </div>
-              </div>
-
-              <div>
-                <button
-                  type="submit"
-                  class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
+        <div class="flex flex-col items-center py-12 justify-around lg:px-24 lg:grid lg:grid-cols-2 lg:gap-24">
           <div className="max-w-md w-full mt-16 md:mt-12 lg:mt-0">
             <h2 className="text-[#868FFF] font-bold text-sm">TESTIMONIALS</h2>
             <h3 className="text-4xl text-white font-bold mt-4">
@@ -510,9 +485,93 @@ function App() {
             <div className="mt-8">
               <h2 className="text-xl font-semibold text-white">Phone Number</h2>
               <p className="text-sm text-[#868FFF]">
-                +254757327949 | +25493105866
+                +254757327949 | +254705073697
               </p>
             </div>
+          </div>
+          <div class="max-w-md w-full space-y-8">
+            <div>
+              <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-400">
+                Contact Us
+              </h2>
+            </div>
+            <form class="mt-8 space-y-6" onSubmit={handleSubmit}>
+              <input type="hidden" name="remember" value="true" />
+              <div class="rounded-md shadow-sm">
+                <div>
+                  <label for="name" class="sr-only">
+                    Full Name
+                  </label>
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    autocomplete="name"
+                    required
+                    class="appearance-none rounded-md relative block w-full px-3 py-2 my-4 bg-transparent border border-[#4A4AFF] placeholder-[#868FFF] text-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                    placeholder="Full Name"
+                    onChange={(e) => setName(e.target.value)}
+                    value={name}
+                  />
+                </div>
+                <div>
+                  <label for="name" class="sr-only">
+                    Email Address
+                  </label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="name"
+                    required
+                    class="appearance-none rounded-md relative block w-full px-3 py-2 my-8 bg-transparent border border-[#4A4AFF] placeholder-[#868FFF] text-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                    placeholder="Email Address"
+                    onChange={(e) => setEmail(e.target.value)}
+                    value={email}
+                  />
+                </div>
+                <div className="">
+                  <label for="phone" class="sr-only">
+                    Phone Number
+                  </label>
+                  <input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    autocomplete="tel"
+                    required
+                    class="appearance-none rounded-md relative block w-full px-3 py-2 my-8 bg-transparent border border-[#4A4AFF] placeholder-[#868FFF] text-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                    placeholder="Phone Number"
+                    onChange={(e) => setPhone(e.target.value)}
+                    value={phone}
+                  />
+                </div>
+                <div>
+                  <label for="message" class="sr-only">
+                    Message
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                    class="appearance-none resize-none rounded-md relative block w-full px-3 py-2 bg-transparent border border-[#4A4AFF] placeholder-[#868FFF] text-white rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                    placeholder="Message"
+                    onChange={(e) => setMessage(e.target.value)}
+                    value={message}
+                  ></textarea>
+                </div>
+              </div>
+
+              <div>
+                <button
+                  type="submit"
+                  class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </section>

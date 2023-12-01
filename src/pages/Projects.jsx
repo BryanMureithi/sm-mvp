@@ -48,10 +48,12 @@ const Projects = () => {
                 Femininity By RachelV
               </h1>
               <p className="text-base text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium maiores officia quibusdam similique nesciunt aut
-                sint vitae? Corrupti dolor, reiciendis magnam maxime veritatis
-                dolores porro omnis magni voluptatum laudantium! Repellat.
+                Femininity aims to take woman’s activewear and make women feel
+                fierce, confident and sexy inside and outside of the gym.
+                Femininity activewear was created to drive women to feel
+                empowered by their active wear. Whether it’s leggings, gym
+                shorts, sports bras, jumpsuits or crop tops, Rachel V’s vision
+                is to “bring the heat” to your workouts and lifestyle.
               </p>
               <a
                 href="https://www.femininitybyrachelv.com/"
@@ -100,16 +102,18 @@ const Projects = () => {
                 Femininity by Rachel V Podcast
               </h1>
               <p className="text-base text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium maiores officia quibusdam similique nesciunt aut
-                sint vitae? Corrupti dolor, reiciendis magnam maxime veritatis
-                dolores porro omnis magni voluptatum laudantium! Repellat.
+                Femininity aims to take woman’s activewear and make women feel
+                fierce, confident and sexy inside and outside of the gym.
+                Femininity activewear was created to drive women to feel
+                empowered by their active wear. Whether it’s leggings, gym
+                shorts, sports bras, jumpsuits or crop tops, Rachel V’s vision
+                is to “bring the heat” to your workouts and lifestyle.
               </p>
               <a
-                href="https://www.dongacarspa.com/"
+                href="https://open.spotify.com/show/6naqbamMRStBMWigQXB0Kh?si=71226010aa40467c"
                 className="text-[#5454D4] hover:underline"
               >
-                https://www.dongacarspa.com/
+                Femininity By RachelV Podcast
               </a>
             </div>
           </div>

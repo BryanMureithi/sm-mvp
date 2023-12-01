@@ -9,7 +9,7 @@ const NavBar = () => {
           <a href={`/`}>Home</a>
         </li>
         <li className="hover:text-[#868FFF]">
-          <a href="#">Services</a>
+          <a href="#services">Services</a>
         </li>
         <li className="hover:text-[#868FFF]">
           <a href={`/projects`}>Projects</a>

@@ -134,12 +134,12 @@ const Projects = () => {
                 The Marty Party Podcast
               </h1>
               <p className="text-base text-gray-400">
-                Femininity aims to take woman’s activewear and make women feel
-                fierce, confident and sexy inside and outside of the gym.
-                Femininity activewear was created to drive women to feel
-                empowered by their active wear. Whether it’s leggings, gym
-                shorts, sports bras, jumpsuits or crop tops, Rachel V’s vision
-                is to “bring the heat” to your workouts and lifestyle.
+                This is Marty asking questions about lifestyle, habits, and
+                ideas to people that inspire him. He hopes to identify the paths
+                and pivotal moments that make them who they are today, and how
+                they choose to live. This is his way to get a peek into the
+                lives of young thought leaders, and he hopes to share this
+                journey with all of you.
               </p>
               <a
                 href="https://open.spotify.com/show/6T58CXTCNFzWMh6OjUA87u?si=7c43f74e612647ed"
@@ -152,7 +152,7 @@ const Projects = () => {
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
             <div className="col-span-1">
               <img
-                src="/images/marty-party.png"
+                src="/images/buy-build.png"
                 alt=""
                 className="max-w-full rounded-xl"
               />

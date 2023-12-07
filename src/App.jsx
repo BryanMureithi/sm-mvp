@@ -311,18 +311,29 @@ function App() {
         <div className="grid grid-cols-1 gap-12 mt-24 md:grid-cols-2 lg:grid-cols-3">
           <div className="col-span-1">
             <img src="/images/work-4.png" alt="" className="rounded-md" />
-            <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
-              Website
-            </span>
+            <div className="flex items-center mt-2">
+              <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
+                Website
+              </span>
+              <span class="bg-green-600 text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
+                In Progress
+              </span>
+            </div>
+
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
               Donga CarSpa
             </h2>
           </div>
           <div className="col-span-1">
             <img src="/images/work-5.png" alt="" className="rounded-md " />
-            <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
-              Website
-            </span>
+            <div className="flex items-center mt-2">
+              <span class="bg-[#5454D4] text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
+                Website
+              </span>
+              <span class="bg-green-600 text-gray-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full">
+                In Progress
+              </span>
+            </div>
             <h2 className="font-semibold text-lg font-poppins text-gray-200 lg:text-base">
               AC Steel Engineering
             </h2>

@@ -4,10 +4,10 @@ import Footer from "../components/Footer";
 const Projects = () => {
   return (
     <div>
-      <header>
+      <header className="bg-[#0A0E12]">
         <NavBar />
       </header>
-      <main className="bg-[#1E1E1E] px-12 py-16 lg:px-24 lg:py-10">
+      <main className="bg-[#0A0E12] px-12 py-16 lg:px-24 lg:py-10">
         <div className="space-y-16">
           {/* 
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">

@@ -117,7 +117,7 @@ function App() {
               <img src="/images/icon1.svg" alt="icon" />
             </div>
           </div>
-          <div className="flex flex-col items-center space-y-12 px-4 mt-20 sm:grid sm:grid-cols-2 md:space-y-0 lg:px-24 lg:mt-24 lg:flex lg:flex-row lg:space-y-0 lg:items-center lg:justify-between">
+          <div className="flex flex-col space-y-12 px-4 mt-20 sm:grid sm:grid-cols-2 md:space-y-0 lg:px-24 lg:mt-24 lg:flex lg:flex-row lg:space-y-0 lg:items-center lg:justify-between">
             <div className="flex flex-col">
               <img
                 src="/images/icon-video.png"
@@ -128,7 +128,7 @@ function App() {
                 Podcast Management
               </h2>
               <div className="mt-8">
-                <ul className="space-y-2">
+                <ul className="space-y-2 grid grid-cols-2 items-center gap-4 lg:grid lg:grid-cols-1 lg:gap-1">
                   <li className="text-[#A8A8A8] text-base font-normal lg:text-lg">
                     Video Editting
                   </li>
@@ -155,7 +155,7 @@ function App() {
                 Website Development
               </h2>
               <div className="mt-8">
-                <ul className="space-y-2">
+                <ul className="space-y-2 grid grid-cols-2 items-center gap-4 lg:grid lg:grid-cols-1 lg:gap-1">
                   <li className="text-[#A8A8A8] text-base font-normal lg:text-lg">
                     Front-end Development
                   </li>
@@ -182,7 +182,7 @@ function App() {
                 UI/UX Design
               </h2>
               <div className="mt-8">
-                <ul className="space-y-2">
+                <ul className="space-y-2 grid grid-cols-2 items-center gap-4 lg:grid lg:grid-cols-1 lg:gap-1">
                   <li className="text-[#A8A8A8] text-base font-normal lg:text-lg">
                     Website Designs
                   </li>
